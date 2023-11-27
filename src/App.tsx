@@ -1,3 +1,4 @@
+import About from "./components/About"
 import Contact from "./components/Contact"
 import ErrorPage from "./components/ErrorPage"
 import Glairy from "./components/Glairy"
@@ -8,6 +9,7 @@ const rooter = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<NavBar />}>
             <Route index element={<Home />} />
+            <Route path="/about" element={<About/>} />
             <Route path="/glairy" element={<Glairy />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<ErrorPage />} />

@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 .slider-btn {
     all: unset;
@@ -14,8 +10,25 @@
     cursor: pointer;
 }
 
+img{
+    transition: translate 300ms ease-in-out ;
+}
+
 .slider-btn>* {
-    fill: white;
+    fill: black;
     width: 2rem;
     height: 2rem;
+}
+
+body,
+html,
+#app {
+    overflow: hidden;
+    height: 100%;
+}
+
+.slider-parent{
+    background-image: url('../../../public/images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

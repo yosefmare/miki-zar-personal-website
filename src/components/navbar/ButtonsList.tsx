@@ -13,6 +13,11 @@ const ButtonsList = ():JSX.Element => {
                     </Link>
                 </li>
                 <li>
+                    <Link className='btn rounded-md in-out duration-300' to={'/about'}>
+                        About
+                    </Link>
+                </li>
+                <li>
                     <Link className='btn rounded-md in-out duration-300' to={'/glairy'}>
                         Glairy
                     </Link>
