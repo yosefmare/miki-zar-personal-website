@@ -6,9 +6,9 @@ const Glairy = () => {
     <div className="text-center h-[100vh] flex justify-center items-center">
       <div className="grid gap-16 lg:grid-cols-3 grid-rows-2 md:grid-cols-2 sm:grid-cols-1 text-white">
         {
-          images.map((card) => {
+          images.map((card, index) => {
             return (
-              <div className="w-[470px] h-[220px] bg-slate-800 grid grid-cols-2 shadow-2xl rounded-md cursor-pointer pop-transition">
+              <div key={index} className="w-[470px] h-[220px] bg-slate-800 grid grid-cols-2 shadow-2xl rounded-md cursor-pointer pop-transition">
                 <div className="overflow-hidden rounded-l-md">
                   <img className="h-full w-full rounded-l-md" src={card.path} alt="" />
                 </div>
