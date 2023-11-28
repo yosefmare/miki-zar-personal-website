@@ -1,6 +1,6 @@
 
 import { Outlet } from 'react-router-dom';
-import img from '/public/Logo_fin.png';
+import img from '/public/img/Logo_fin.png';
 import './style.scss';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import ButtonsList from './ButtonsList';

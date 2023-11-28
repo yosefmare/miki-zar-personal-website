@@ -1,6 +1,6 @@
-import img1 from '/public/img-1.jpg';
-import img2 from '/public/img-2.jpg';
-import img3 from '/public/img-3.jpg';
+import img1 from '/public/img/img-1.jpg';
+import img2 from '/public/img/img-2.jpg';
+import img3 from '/public/img/img-3.jpg';
 import ImagesSlider from './ImagesSlider';
 import './style.scss'
 
