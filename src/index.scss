@@ -15,4 +15,8 @@
 .btn {
     @apply bg-amber-500 hover:bg-amber-600 px-4 py-2
 }
+
+.pop-transition{
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300
+}
 }
